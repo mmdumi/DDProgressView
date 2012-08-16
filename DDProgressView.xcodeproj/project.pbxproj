@@ -16,7 +16,7 @@
 		6DA2E7F4132D6DC100985306 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2E7F2132D6DC100985306 /* MainWindow.xib */; };
 		6DA2E7F7132D6DC100985306 /* DDProgressViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2E7F6132D6DC100985306 /* DDProgressViewViewController.m */; };
 		6DA2E7FA132D6DC100985306 /* DDProgressViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2E7F8132D6DC100985306 /* DDProgressViewViewController.xib */; };
-		6DA2E802132D6E2E00985306 /* DDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2E801132D6E2D00985306 /* DDProgressView.m */; };
+		6DA2E802132D6E2E00985306 /* WPProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2E801132D6E2D00985306 /* WPProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		6DA2E7F5132D6DC100985306 /* DDProgressViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDProgressViewViewController.h; sourceTree = "<group>"; };
 		6DA2E7F6132D6DC100985306 /* DDProgressViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDProgressViewViewController.m; sourceTree = "<group>"; };
 		6DA2E7F9132D6DC100985306 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DDProgressViewViewController.xib; sourceTree = "<group>"; };
-		6DA2E800132D6E2D00985306 /* DDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDProgressView.h; sourceTree = "<group>"; };
-		6DA2E801132D6E2D00985306 /* DDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDProgressView.m; sourceTree = "<group>"; };
+		6DA2E800132D6E2D00985306 /* WPProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPProgressView.h; sourceTree = "<group>"; };
+		6DA2E801132D6E2D00985306 /* WPProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPProgressView.m; sourceTree = "<group>"; };
 		DA8635BA136EEA8000776109 /* AppKitCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppKitCompatibility.h; sourceTree = "<group>"; };
 		DA8635BB136EEA8000776109 /* AppKitCompatibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppKitCompatibility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,13 +86,13 @@
 			children = (
 				DA8635BA136EEA8000776109 /* AppKitCompatibility.h */,
 				DA8635BB136EEA8000776109 /* AppKitCompatibility.m */,
-				6DA2E800132D6E2D00985306 /* DDProgressView.h */,
-				6DA2E801132D6E2D00985306 /* DDProgressView.m */,
+				6DA2E800132D6E2D00985306 /* WPProgressView.h */,
+				6DA2E801132D6E2D00985306 /* WPProgressView.m */,
 				6DA2E7EF132D6DC100985306 /* DDProgressViewAppDelegate.h */,
 				6DA2E7F0132D6DC100985306 /* DDProgressViewAppDelegate.m */,
-				6DA2E7F2132D6DC100985306 /* MainWindow.xib */,
 				6DA2E7F5132D6DC100985306 /* DDProgressViewViewController.h */,
 				6DA2E7F6132D6DC100985306 /* DDProgressViewViewController.m */,
+				6DA2E7F2132D6DC100985306 /* MainWindow.xib */,
 				6DA2E7F8132D6DC100985306 /* DDProgressViewViewController.xib */,
 				6DA2E7E7132D6DC100985306 /* Supporting Files */,
 			);
@@ -176,7 +176,7 @@
 				6DA2E7EE132D6DC100985306 /* main.m in Sources */,
 				6DA2E7F1132D6DC100985306 /* DDProgressViewAppDelegate.m in Sources */,
 				6DA2E7F7132D6DC100985306 /* DDProgressViewViewController.m in Sources */,
-				6DA2E802132D6E2E00985306 /* DDProgressView.m in Sources */,
+				6DA2E802132D6E2E00985306 /* WPProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +250,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDProgressView/DDProgressView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DDProgressView/DDProgressView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -263,6 +264,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDProgressView/DDProgressView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DDProgressView/DDProgressView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;

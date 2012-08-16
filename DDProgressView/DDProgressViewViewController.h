@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class DDProgressView ;
+@class WPProgressView ;
 
 @interface DDProgressViewViewController : UIViewController
 {
     float   testProgress ;
     int     progressDir ;
     
-    DDProgressView *progressView ;    
-    DDProgressView *progressView2 ;
+    WPProgressView *progressView ;    
+    WPProgressView *progressView2 ;
 }
 
 @end
